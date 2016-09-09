@@ -64,3 +64,10 @@ a {
   background-image: url("../images/beach_chat.jpeg");
   background-size: cover;
 }
+.beach:hover {
+  background-image: url("../images/beach_chat.jpeg");
+  background-size: cover;
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
