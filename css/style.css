@@ -12,7 +12,7 @@ div {
   color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  border-radius: 12px;
+  border-radius: 50%;
 }
 
 sectiona {
@@ -45,7 +45,7 @@ a {
 }
 
 .beard {
-  background-image: url("../images/angelo_brown_beard.jpg");
+  background-image: url("../images/theone.jpg");
   background-size: cover;
 }
 .city {
@@ -60,6 +60,13 @@ a {
   background-image: url("../images/skydive.jpg");
   background-size: cover;
 }
+.jump:hover {
+  background-image: url("../images/skydive.jpg");
+  background-size: cover;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
 .beach {
   background-image: url("../images/beach_chat.jpeg");
   background-size: cover;
@@ -67,7 +74,7 @@ a {
 .beach:hover {
   background-image: url("../images/beach_chat.jpeg");
   background-size: cover;
-  -webkit-transform: rotateZ(-30deg);
-  -ms-transform: rotateZ(-30deg);
-  transform: rotateZ(-30deg);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
