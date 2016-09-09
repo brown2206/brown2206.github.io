@@ -1,0 +1,60 @@
+body {
+  background-color: #D90113;
+  text-align: center;
+}
+
+div {
+  width: 200px;
+	height: 200px;
+  line-height: 200px;
+  text-align: center;
+  text-shadow: 2px 2px 0 #D90113;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+sectiona {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  padding: 50px 0 10px 0;
+  margin: auto;
+}
+
+sectionb {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  padding: 10px 0 10px 0;
+  margin: auto;
+}
+
+sectionc {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  padding: 10px 0 100px 0;
+  margin: auto;
+}
+
+.beard {
+  background-image: url("../images/angelo_brown_beard.jpg");
+  background-size: cover;
+}
+.city {
+  background-image: url("../images/facingyou.jpg");
+  background-size: cover;
+}
+.wrinkles {
+  background-image: url("../images/wrinkles.jpg");
+  background-size: cover;
+}
+.jump {
+  background-image: url("../images/skydive.jpg");
+  background-size: cover;
+}
+.beach {
+  background-image: url("../images/beach_chat.jpeg");
+  background-size: cover;
+}
