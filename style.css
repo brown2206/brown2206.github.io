@@ -48,3 +48,15 @@ h1 {
   padding-right: 400px;
   justify-content: flex-start;
 }
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px; /* Half the height */
+    margin-left: -200px; /* Half the width */
+}
