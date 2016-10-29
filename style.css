@@ -1,62 +1,31 @@
-header {
-  display: flex;
-  flex-direction: row;
-  background: #185E85;
-  height: 150px;
-  line-height: 150px;
-}
-
-*{
-  margin:0;
-  border:0;
-  padding:0;
-  /*border-collapse:collapse;*/
-  /*border-spacing:0;*/
-  /*font-size:inherit;*/
-  /*font-style:inherit;*/
-  /*font-family:inherit;*/
-  /*font-weight:inherit;*/
-  /*text-decoration:none;*/
-  /*color:inherit;*/
-  /*background-color:transparent;*/
-  /*list-style-type:none;*/
-  /*box-sizing:border-box;*/
-}
-
-body {
-  background: #88E93C;
-}
-
-nav {
-  float: right;
-  padding-left: 150px;
-}
-
-a {
-  margin: 10px;
-  font-family: 'Russo One', sans-serif;
-  font-size: 25px;
+div {
+  width: 400px;
+	height: 200px;
+  line-height: 200px;
+  text-align: center;
   color: #FFFFFF;
-  text-decoration: none;
-}
-
-h1 {
-  font-family: 'Russo One', sans-serif;
-  font-size: 45px;
-  color: #FFFFFF;
-  margin-left: 25px;
-  padding-right: 400px;
-  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0px 10px;
 }
 
 img {
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px; /* Half the height */
-    margin-left: -200px; /* Half the width */
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+#towerofhanoi {
+  background: url("img/towerofhanoi.jpg");
+  background-size: cover;
+}
+
+#snitch {
+  background: url("img/snitch.jpg");
+  background-size: cover;
 }
