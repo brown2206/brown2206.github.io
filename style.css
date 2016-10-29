@@ -1,3 +1,10 @@
+body {
+  background-color: #FFFE66;
+  text-align: center;
+  align-items: center;
+  font-family: 'Arvo', serif;
+}
+
 div {
   width: 400px;
 	height: 200px;
@@ -6,18 +13,22 @@ div {
   color: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  margin: 0px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 
 img {
   border-radius: 50%;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
 }
 
 section {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  align-items: center;
 }
 
 #towerofhanoi {
