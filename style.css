@@ -1,5 +1,6 @@
 body {
-  background-color: #FFFE66;
+  background-color: #3B5999;
+  color: #FFFFFF;
   text-align: center;
   align-items: center;
   font-family: 'Arvo', serif;
@@ -7,7 +8,10 @@ body {
 
 h1 {
   font-size: 85px;
-  color: #00308F;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 div {
@@ -16,15 +20,14 @@ div {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50px;
-  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
 img {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  border: 2px solid #000000;
+  border: 5px solid #FFFFFF;
 }
 
 section {
@@ -53,4 +56,5 @@ a {
   text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
+  color: #FFFFFF;
 }
