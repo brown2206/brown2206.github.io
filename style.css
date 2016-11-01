@@ -42,8 +42,9 @@ section {
   flex-direction: row;
   text-align: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 50px;
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
@@ -56,6 +57,11 @@ section {
 
 #snitch {
   background: url("img/snitch.jpg");
+  background-size: cover;
+}
+
+#hackathon {
+  background: url("img/atthack.jpg");
   background-size: cover;
 }
 
