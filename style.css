@@ -1,5 +1,6 @@
 body {
-  background-color: #89D0F0;
+  /*background-color: #89D0F0;*/
+  background-image: linear-gradient( to right, yellow, #89D0F0);
   color: #FFFFFF;
   text-align: center;
   align-items: center;
