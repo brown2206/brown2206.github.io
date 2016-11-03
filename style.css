@@ -1,12 +1,37 @@
 body {
   /*background-color: #89D0F0;*/
-  background-image: linear-gradient( to right, yellow, #89D0F0);
+  /*background-image: linear-gradient( to right, yellow, #89D0F0);*/
   color: #FFFFFF;
   text-align: center;
   align-items: center;
   font-family: 'Arvo', serif;
 }
 
+.folder {
+  background-image: linear-gradient( to right, yellow, #89D0F0);
+  border-radius: 30px;
+  width: 97%;
+  height: 100%;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  box-shadow: 10px 10px red;
+}
+
+.tab {
+  width: 3%;
+  height: 200px;
+  background-color: #89D0F0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction:
+}
 nav {
   margin-top: 30px;
 }
@@ -22,14 +47,14 @@ h2 {
   font-size: 50px;
 }
 
-div {
+/*div {
   width: 400px;
 	height: 200px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-}
+}*/
 
 img {
   width: 188px;
@@ -55,25 +80,48 @@ section {
 #towerofhanoi {
   background: url("img/towerofhanoi.jpg");
   background-size: cover;
-  margin: 10px;
+  /*margin: 10px;*/
+  width: 400px;
+	height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 #snitch {
   background: url("img/snitch.jpg");
   background-size: cover;
   margin: 10px;
+  width: 400px;
+	height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 #hackathon {
   background: url("img/atthack.jpg");
   background-size: cover;
   margin: 10px;
+  width: 400px;
+	height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 #aceso {
   background: url("img/aceso.jpg");
   background-size: cover;
-  margin: 10px;
+  margin: 10px;width: 400px;
+	height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 a {
