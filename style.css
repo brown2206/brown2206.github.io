@@ -1,7 +1,7 @@
 body {
   /*background-color: #89D0F0;*/
   /*background-image: linear-gradient( to right, yellow, #89D0F0);*/
-  color: #FFFFFF;
+  color: red;
   text-align: center;
   align-items: center;
   font-family: 'Arvo', serif;
@@ -10,18 +10,18 @@ body {
 .folder {
   background-image: linear-gradient( to right, yellow, #89D0F0);
   border-radius: 30px;
-  width: 97%;
+  width: 95%;
   height: 100%;
   position: relative;
   margin-left: 0px;
   margin-top: 0px;
-  box-shadow: 10px 10px red;
+  box-shadow: 20px 20px #19262C;
 }
 
 .tab {
-  width: 3%;
+  width: 5%;
   height: 200px;
-  background-color: #89D0F0;
+  background-color: #19262C;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   margin-top: 100px;
@@ -124,9 +124,18 @@ section {
   border-radius: 10px;
 }
 
+#paper {
+  align-items: center;
+  background: url("img/paper.jpg");
+  height: 50%;
+  position: relative;
+  margin-left: 10%;
+  width: 80%;
+}
+
 a {
   text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
-  color: #FFFFFF;
+  color: red;
 }
