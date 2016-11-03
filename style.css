@@ -35,6 +35,7 @@ img {
   width: 188px;
   height: 250px;
   border: 5px solid #FFFFFF;
+  transform: rotate(10deg);
 }
 
 section {
@@ -45,6 +46,7 @@ section {
   flex-wrap: wrap;
   margin-top: 50px;
   width: 100%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
@@ -53,16 +55,25 @@ section {
 #towerofhanoi {
   background: url("img/towerofhanoi.jpg");
   background-size: cover;
+  margin: 10px;
 }
 
 #snitch {
   background: url("img/snitch.jpg");
   background-size: cover;
+  margin: 10px;
 }
 
 #hackathon {
   background: url("img/atthack.jpg");
   background-size: cover;
+  margin: 10px;
+}
+
+#aceso {
+  background: url("img/aceso.jpg");
+  background-size: cover;
+  margin: 10px;
 }
 
 a {
