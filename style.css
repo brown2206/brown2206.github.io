@@ -1,10 +1,26 @@
 body {
   /*background-color: #89D0F0;*/
   /*background-image: linear-gradient( to right, yellow, #89D0F0);*/
-  color: red;
+  color: #000000;
   text-align: center;
   align-items: center;
-  font-family: 'Arvo', serif;
+  font-family: 'Courier New', courier;
+}
+
+h1 {
+  margin-top: 0px;
+  font-size: 75px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+  margin: 10px;
 }
 
 .folder {
@@ -28,6 +44,12 @@ body {
   margin-right: 10px;
 }
 
+.bio {
+  text-align: left;
+  width: 80%;
+  height: 50%;
+}
+
 main {
   display: flex;
   flex-direction:
@@ -36,16 +58,6 @@ nav {
   margin-top: 30px;
 }
 
-h1 {
-  margin-top: 0px;
-  font-size: 85px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  margin-top: 0px;
-  font-size: 50px;
-}
 
 /*div {
   width: 400px;
@@ -60,6 +72,7 @@ img {
   width: 188px;
   height: 250px;
   border: 5px solid #FFFFFF;
+  outline: 1px solid #000000;
   transform: rotate(10deg);
 }
 
@@ -81,54 +94,69 @@ section {
   background: url("img/towerofhanoi.jpg");
   background-size: cover;
   /*margin: 10px;*/
-  width: 400px;
-	height: 200px;
+  width: 450px;
+	height: 225px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border: 5px solid #FFFFFF;
+  outline: 1px solid #000000;
+  transform: rotate(350deg);
+  /*border-radius: 10px;*/
 }
 
 #snitch {
   background: url("img/snitch.jpg");
   background-size: cover;
-  margin: 10px;
-  width: 400px;
-	height: 200px;
+  /*margin: 10px;*/
+  width: 450px;
+	height: 225px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border: 5px solid #FFFFFF;
+  outline: 1px solid #000000;
+  transform: rotate(15deg);
+  /*border-radius: 10px;*/
 }
 
 #hackathon {
   background: url("img/atthack.jpg");
   background-size: cover;
-  margin: 10px;
-  width: 400px;
-	height: 200px;
+  /*margin: 10px;*/
+  width: 450px;
+	height: 225px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border: 5px solid #FFFFFF;
+  outline: 1px solid #000000;
+  transform: rotate(350deg);
+  /*border-radius: 10px;*/
 }
 
 #aceso {
   background: url("img/aceso.jpg");
   background-size: cover;
-  margin: 10px;width: 400px;
-	height: 200px;
+  /*margin: 10px;*/
+  width: 450px;
+	height: 225px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border: 5px solid #FFFFFF;
+  outline: 1px solid #000000;
+  transform: rotate(5deg);
+  /*border-radius: 10px;*/
 }
 
 #paper {
   align-items: center;
   background: url("img/paper.jpg");
-  height: 50%;
+  height: 100%;
   position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
   margin-left: 10%;
   width: 80%;
 }
