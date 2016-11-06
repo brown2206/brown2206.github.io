@@ -24,20 +24,21 @@ p {
 }
 
 .folder {
-  background-image: linear-gradient( to right, yellow, #89D0F0);
+  /*background-image: linear-gradient( to right, yellow, #89D0F0);*/
+  background-color: #D2BB89;
   border-radius: 30px;
   width: 95%;
   height: 100%;
   position: relative;
   margin-left: 0px;
   margin-top: 0px;
-  box-shadow: 20px 20px #19262C;
+  box-shadow: 10px 10px #272219;
 }
 
 .tab {
   width: 5%;
   height: 200px;
-  background-color: #19262C;
+  background-color: #D2BB89;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   margin-top: 100px;
