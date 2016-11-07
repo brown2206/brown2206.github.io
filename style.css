@@ -161,16 +161,23 @@ section {
   width: 80%;
 }
 
-a {
+/*a {
   text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
   color: red;
-}
+}*/
 
 #hack {
   width: 400px;
   height: 600px;
+  border: 5px solid #FFFFFF;
+  outline: 1px solid #000000;
+}
+
+#beach {
+  width: 400px;
+  height: 500px;
   border: 5px solid #FFFFFF;
   outline: 1px solid #000000;
 }
